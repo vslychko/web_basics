@@ -14,10 +14,6 @@ p {
 }
 .home {
     max-width: 32px;
-.home:hover {
-    visibility: visible;
-}
-}
 a:hover {
     color: blue;
     text-decoration: underline;
