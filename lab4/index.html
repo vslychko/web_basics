@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <title>Lab_4</title>
+</head>
+<body>
+    <h1> Моя перша HTML-форма</h1>
+    <form action="https://httpbin.org/get" method="get">
+       <p>
+       <label for="user_name"> Імя:</label>
+       <input type="text" name="user_name" id="user_name">
+       </p>
+       <p>
+       <label for="user_birthdate"> Дата народження:</label>
+       <input type="date" name="user_birthdate" id="user_birthdate">
+       </p>
+        <p>
+        <label for="user_email">Імейл:</label>
+        <input type="email" name="user_email" id="user_email">
+        </p>
+        <p>
+        <label for="user_message"> Повідомлення:</label>
+        <input type="text" name="user_message" id="user_message" style="height: 30px; width: 150px;">
+<div>
+Ваші улюблені напої
+</div>
+<p>
+<input type="checkbox" id="drink1" name="drink1" value="water">
+<label for="drink1"> Вода </label><br>
+<input type="checkbox" id="drink2" name="drink2" value="coffee">
+<label for="drink2"> Кава</label><br>
+<input type="checkbox" id="drink3" name="drink3" value="Tea">
+<label for="drink3"> Чай</label><br>     
+<input type="checkbox" id="drink4" name="drink4" value="Juice">
+<label for="drink4"> Сік</label><br>
+</p>
+<div>
+Моя Національність 
+</div>
+<p>
+<input type="radio" id="nation1" name="nation" value="Національність1">
+<label for="nation3">Національність1</label><br>
+<input type="radio" id="nation2" name="nation" value="Національність2">
+<label for="nation2">Національність2</label><br>
+<input type="radio" id="nation3" name="nation" value="Національність3">
+<label for="nation3">Національність3</label>
+      </p>
+        <p>
+        <input type="submit" value="Надіслати">
+        <input type="reset" value="Очистити">
+        </p>
+      </form>
+      <picture>
+        <source media="(min-width: 468px)" srcset=" https://fastly.picsum.photos/id/85/1000/400.jpg?hmac=UlPaBwCUXF610Z6F1GjikVmrxotnH0wF67uGvXLrYl8">
+        <source  media="(min-width:0)" srcset="https://fastly.picsum.photos/id/1073/300/500.jpg?hmac=wXk09SJtbS42Uj0HvM8F33o3cXfDwizAzSnco1c-BXs">
+        <img src="https://fastly.picsum.photos/id/1073/300/500.jpg?hmac=wXk09SJtbS42Uj0HvM8F33o3cXfDwizAzSnco1c-BXs" alt="image" style="width: 100%">
+      </picture>
+</body>
+</html>
